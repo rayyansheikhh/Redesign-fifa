@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    height: 100vh;
+}
+
+nav {
+    padding: 15px;
+    background-color: #222222;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    margin-left: 15px;
+    margin-right: 25px;
+}
+
+nav ul {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav li {
+    list-style: none;
+    color: white;
+}
+
+nav i {
+    font-size: 25px;
+    color: white;
+}
+
+nav span {
+    margin-left: 180px;
+}
+
+.btns button {
+    margin-left: 25px;
+    width: 140px;
+    height: 40px;
+    background: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 13px;
+}
+
+.hero-sctn {
+    height: 100%;
+    width: 100%;
+    padding: 40px 60px;
+}
+
+.products {
+    height: 470px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.box-a {
+    margin-right: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: dashed;
+    height: 350px;
+    width: 280px;
+    padding: 25px;
+}
+
+.box-a img {
+    height: 230px;
+}
+
+.box-a h3 {
+    margin: 5px 0px;
+    font-size: 16px;
+}
+
+.upar h3 {
+    font-size: 27px;
+}
+
+.hero-sctn h1 {
+    margin-top: 80px;
+    margin-bottom: 130px;
+    line-height: 90px;
+    font-size: 84px;
+}
+
+.box-b {
+    margin-right: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: dashed;
+    height: 350px;
+    width: 280px;
+    padding: 25px;
+}
+
+.box-b img {
+    height: 230px;
+}
+
+.box-b h3 {
+    margin: 5px 0px;
+    font-size: 16px;
+}
+
+.box-c {
+    margin-right: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: dashed;
+    height: 350px;
+    width: 280px;
+    padding: 25px;
+}
+
+.box-c img {
+    height: 230px;
+}
+
+.box-c h3 {
+    margin: 5px 0px;
+    font-size: 16px;
+}
+
+.box-d {
+    margin-right: 15px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-style: dashed;
+    height: 350px;
+    width: 280px;
+    padding: 25px;
+}
+
+.box-d img {
+    height: 230px;
+}
+
+.box-d h3 {
+    margin: 5px 0px;
+    font-size: 16px;
+}
+
+.detail-sctn {
+    padding: 15px;
+    border-radius: 20px;
+    margin-left: 61px;
+    margin-top: 390px;
+    color: white;
+    height: 400px;
+    flex-direction: row;
+    width: 92%;
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+}
+
+.detail-sctn img {
+    margin-left: 30px;
+    margin-bottom: 100px;
+    height: 500px;
+}
+
+.txt1 {
+    width: 550px;
+    margin-left: 20px;
+}
+
+.txt1 h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 55px;
+    margin-bottom: 15px;
+}
+
+.detail-sctn2 {
+    padding: 15px;
+    border-radius: 20px 0px 0px 20px;
+    margin-left: 255px;
+    margin-top: 150px;
+    color: white;
+    height: 350px;
+    flex-direction: row;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    background-color: #222222;
+}
+
+.detail-sctn2 img {
+    margin-left: 30px;
+    margin-bottom: 170px;
+    height: 550px;
+}
+
+.txt2 {
+    width: 550px;
+}
+
+.txt2 h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 40px;
+    margin-bottom: 15px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: 150px;
+    background-color: #222222;
+    height: 450px;
+}
+
+footer img {
+    margin-bottom: 40px;
+}
+
+footer ul {
+    color: white;
+    list-style: none;
+}
+
+footer div {
+    display: flex;
+}
+
+.head {
+    font-weight: 600;
+}
+
+.ul1 {
+    margin-right: 70px;
+}
+
+.ul1 li {
+    margin-bottom: 15px;
+}
+
+
+.ul2 {
+    margin-top: 80px;
+    margin-right: 70px;
+}
+
+.ul2 li {
+    margin-bottom: 15px;
+}
+
+.ul3 {
+    margin-top: 80px;
+}
+
+.ul3 li {
+    margin-bottom: 15px;
+}
+ .cntct{
+    width: 40%;
+    display: flex;
+    color: white;
+    align-items: end;
+    justify-content: end;
+ }
+ .cntct h3{
+ font-weight: 400;
+ font-size: 19px;
+ margin-right: 5px;
+ }
+ .cntct p{
+    font-weight: 200;
+    font-size: 19px;
+    margin-right: 10px;
+    }
+ .link{
+    font-weight: 200;
+ }
